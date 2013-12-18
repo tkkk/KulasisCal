@@ -1,0 +1,418 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="/iwproxy/KULASIS/css/behavior.css">
+  <link rel="stylesheet" type="text/css" href="/iwproxy/KULASIS/css/layout.css">
+  <link rel="stylesheet" type="text/css" href="/iwproxy/KULASIS/css/la_style.css">
+  <script type="text/javascript" src="/iwproxy/KULASIS/js/prototype.js"> </script>
+  <script type="text/javascript" src="/iwproxy/KULASIS/js/jquery.js"> </script>
+  <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/blitzer/jquery-ui.css" rel="stylesheet" type="text/css"/><!-- jquery UI のcss-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script><!-- jquery　本体-->
+<script type="text/javascript"  src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/jquery-ui.min.js"></script><!-- jquery-UI　本体-->
+<script type="text/javascript" src="test.js"></script>
+  <script type="text/javascript" src="/iwproxy/KULASIS/js/jquery_auto.js"> </script>
+
+  <title>京都大学教務情報システム</title>
+
+</head>
+<body>
+
+
+
+<div id="test">aaaaaa</div>
+
+
+
+
+<div id="frame">
+  <div id="header">
+    <div class="header_left">
+        <img src="/iwproxy/KULASIS/img/zk_logo_l.gif" alt="TOPへ"  id="id_img_22_0" >
+    </div>
+
+    <div class="header_right">
+      <div class="logo"><img src="/iwproxy/KULASIS/img/zk_logo_r.gif" alt="" id="id_img_22_1" ></div>
+
+      <div class="header_menu">
+        <ul class="header_menu_left">
+        
+          <li><a href="/iwproxy/KULASIS/student/la/top"  id="id_a_22_1" ><img class="Hover" src="/iwproxy/KULASIS/img/zk_tab_home.gif" alt="ホーム" id="id_img_22_3" ></a></li>
+                <li><a href="/iwproxy/KULASIS/student/la/notice/top"  id="id_a_22_3" ><img class="Hover" src="/iwproxy/KULASIS/img/zk_tab_information.gif" alt="お知らせ" id="id_img_22_5" ></a></li>
+                <li><a href="/iwproxy/KULASIS/student/la/syllabus/top"  id="id_a_22_5" ><img class="Hover" src="/iwproxy/KULASIS/img/zk_tab_syllabus.gif" alt="シラバス" id="id_img_22_7" ></a></li>
+                <li><a href="/iwproxy/KULASIS/student/la/entry/zenki"  id="id_a_22_7" ><img class="Hover" src="/iwproxy/KULASIS/img/zk_tab_timetable_zenki.gif" alt="時間割(前期)" id="id_img_22_9" ></a></li>
+                <li><a href="/iwproxy/KULASIS/student/la/entry/kouki"  id="id_a_22_8" ><img src="/iwproxy/KULASIS/img/zk_tab_timetable_kouki_on.gif" alt="時間割(後期)" id="id_img_22_10" ></a></li>
+                <li><a href="/iwproxy/KULASIS/student/la/account/top"  id="id_a_22_11" ><img class="Hover" src="/iwproxy/KULASIS/img/zk_tab_setting.gif" alt="登録情報" id="id_img_22_13" ></a></li>
+                <li><a href="/iwproxy/KULASIS/student/la/oh/top"  id="id_a_22_11" ><img class="Hover" src="/iwproxy/KULASIS/img/zk_tab_office.gif" alt="オフィスアワー" id="id_img_22_13" ></a></li>
+                </ul>
+
+        <ul class="header_menu_right">
+           <li><a href="/iwproxy/KULASIS/student/logout" id="id_a_22_30" ><img src="/iwproxy/KULASIS/img/zk_header_logout.gif" alt="ログアウト" id="id_img_22_32" ></a></li>
+          <li><a href="/iwproxy/KULASIS/student/la/top"   id="id_a_22_31" ><img src="/iwproxy/KULASIS/img/zk_header_home_o.gif" alt="" id="id_img_22_33" ></a></li>
+
+        </ul>
+      </div>
+
+    </div>
+  </div> 
+
+<div id="wrapper">
+    <style>
+ .hide {
+   display: none;
+ }
+</style>
+    
+<div class="menu">
+<ul>
+<li>
+  <ul class="links">
+    <li>
+  <img src="/iwproxy/KULASIS/img/zk_menu_la_on.gif" alt="全学共通科目">
+  </li>
+</ul>
+</li>
+<li>
+  <ul class="link">
+    <li>
+  <a href="/iwproxy/KULASIS/student/u/t/entry/kouki" ><img class="Hover" src="/iwproxy/KULASIS/img/zk_menu_tech.gif" alt="工学部" ></a>
+  </li>
+</ul>
+</li>
+<li>
+  <ul class="links">
+    </ul>
+</li>
+</ul>
+</div>
+
+
+<div class="contents">
+          
+      <div class="right" style="margin-top: 3px;">
+<span class="link"><a href="/iwproxy/KULASIS/student/la/privacy">プライバシー・ポリシー</a></span> |
+<span class="link"><a href="/iwproxy/KULASIS/student/la/user_guideline">利用ガイドライン</a></span>
+</div>
+
+<div class="timeout_message">
+  ※30分以上操作しない場合は自動的にログアウトします。
+</div>
+
+
+    <!-- contents -->
+      
+      <!-- title -->
+      <div class="title">
+        <img src="/iwproxy/KULASIS/img/department_title_la.gif" ><br><img src="/iwproxy/KULASIS/img/mark_01.gif" alt="" id="id_img_1252_0" >
+        <img src="/iwproxy/KULASIS/img/title_timetable.gif" alt="時間割" id="id_img_1252_1" >
+      </div>
+
+          <div class="explanation">
+    ここは，桑原　拓也 さんのMy Pageです。
+  </div>
+
+
+<div class="content">
+        <div>あなたの授業登録情報です。</div>
+        <br />
+        <div class="notice"></div>
+
+        <!-- search result -->
+        <table class="entry_table" style="width:720px;">
+          <tr><td colspan="6" align="right"><!--<a href="#" id="id_a_1252_0" ><img src="/iwproxy/KULASIS/img/button_mini_print.gif" width="127" height="22" alt="印刷用ページの表示" border="0" id="id_img_1252_2" ></a>--></td></tr>
+          <tr><td colspan="6"><img src="/iwproxy/KULASIS/img/0.gif" width="1" height="3" alt="" id="id_img_1252_3" ></td></tr>
+
+          <tr><td bgcolor="#9DA0B4" class="th_top_normal" align="center" colspan="6"></td></tr>
+
+          <tr align="center">
+            <td class="th_normal" width="15"><img src="/iwproxy/KULASIS/img/0.gif" width="1" height="1" alt="" id="id_img_1252_4" ></td>
+            <td class="th_normal " width="125">1</td>
+            <td class="th_normal " width="125">2</td>
+            <td class="th_normal " width="125">3</td>
+            <td class="th_normal " width="125">4</td>
+            <td class="th_normal " width="125">5</td>
+          </tr>
+          
+          
+
+          <!-- 月曜日 -->
+          <tr valign="top">
+              <td class="th_normal " width="15" align="center" valign="middle">月</td>
+
+              <td class="entry_interest" width="125">
+                        <a  href="/iwproxy/KULASIS/student/la/support/top?no=16398&from=%2Fstudent%2Fla%2Fentry%2Fkouki"  id="id_a_1172_0" >
+                        全:数理統計 &nbsp;</a>
+                        <br /><br />
+                        
+                        
+                        
+                        &nbsp;岩塚　明<br />
+                        &nbsp;自然・応用科学系科目群<br />
+                        &nbsp;共南11<br />
+                        <div style="text-align:right">後期</div>
+                      </div>
+                    </td>
+                <td class="entry_other" width="125">
+                        <a  href="/iwproxy/KULASIS/student/u/t/support/top?no=5145&from=%2Fstudent%2Fu%2Ft%2Fentry%2Fkouki"  id="id_a_1172_0" >
+                        工:コンパイラ（計算機）&nbsp;</a>
+                        <br /><br />
+                        
+                        
+                        
+                        &nbsp;椋木　雅之 他<br />
+                        &nbsp;情報学科<br />
+                        &nbsp;総合研究７号館情報２<br />
+                        <div style="text-align:right">後期</div>
+                      </div>
+                    </td>
+                <td class="entry_null" ></td>
+                <td class="entry_null" ></td>
+                <td class="entry_null" ></td>
+                </tr>
+
+          <!-- 火曜日 -->
+          <tr valign="top">
+            <td class="th_normal " width="15" align="center" valign="middle">火</td>
+
+              <td class="entry_other" width="125">
+                        <a  href="/iwproxy/KULASIS/student/u/t/support/top?no=5103&from=%2Fstudent%2Fu%2Ft%2Fentry%2Fkouki"  id="id_a_1172_0" >
+                        工:計算機アーキテクチャ１（計算機）&nbsp;</a>
+                        <br /><br />
+                        
+                        
+                        
+                        &nbsp;高木　直史<br />
+                        &nbsp;情報学科<br />
+                        &nbsp;総合研究７号館情報１<br />
+                        <div style="text-align:right">後期</div>
+                      </div>
+                    </td>
+                <td class="entry_interest" width="125">
+                        <a  href="/iwproxy/KULASIS/student/la/support/top?no=16405&from=%2Fstudent%2Fla%2Fentry%2Fkouki"  id="id_a_1172_0" >
+                        全:数理論理学Ｂ &nbsp;</a>
+                        <br /><br />
+                        
+                        
+                        
+                        &nbsp;立木　秀樹<br />
+                        &nbsp;自然・応用科学系科目群<br />
+                        &nbsp;共北31<br />
+                        <div style="text-align:right">後期</div>
+                      </div>
+                    </td>
+                <td class="entry_other" width="125">
+                        <a  href="/iwproxy/KULASIS/student/u/t/support/top?no=5106&from=%2Fstudent%2Fu%2Ft%2Fentry%2Fkouki"  id="id_a_1172_0" >
+                        工:計算機科学実験及演習２（計算機）&nbsp;</a>
+                        <br /><br />
+                        
+                        
+                        
+                        &nbsp;椋木　雅之 他<br />
+                        &nbsp;情報学科<br />
+                        &nbsp;総合研究７号館計算機演習室１<br />
+                        <div style="text-align:right">後期</div>
+                      </div>
+                    </td>
+                <td class="entry_other" width="125">
+                        <a  href="/iwproxy/KULASIS/student/u/t/support/top?no=5106&from=%2Fstudent%2Fu%2Ft%2Fentry%2Fkouki"  id="id_a_1172_0" >
+                        工:計算機科学実験及演習２（計算機）&nbsp;</a>
+                        <br /><br />
+                        
+                        
+                        
+                        &nbsp;椋木　雅之 他<br />
+                        &nbsp;情報学科<br />
+                        &nbsp;総合研究７号館計算機演習室１<br />
+                        <div style="text-align:right">後期</div>
+                      </div>
+                    </td>
+                <td class="entry_null" ></td>
+                </tr>
+
+          <!-- 水曜日 -->
+
+          <tr valign="top">
+            <td class="th_normal " width="15" align="center" valign="middle">水</td>
+
+              <td class="entry_other" width="125">
+                        <a  href="/iwproxy/KULASIS/student/u/t/support/top?no=5147&from=%2Fstudent%2Fu%2Ft%2Fentry%2Fkouki"  id="id_a_1172_0" >
+                        工:言語・オートマトン&nbsp;</a>
+                        <br /><br />
+                        
+                        
+                        
+                        &nbsp;岩間　一雄<br />
+                        &nbsp;情報学科<br />
+                        &nbsp;総合研究７号館情報１<br />
+                        <div style="text-align:right">後期</div>
+                      </div>
+                    </td>
+                <td class="entry_other" width="125">
+                        <a  href="/iwproxy/KULASIS/student/u/t/support/top?no=5164&from=%2Fstudent%2Fu%2Ft%2Fentry%2Fkouki"  id="id_a_1172_0" >
+                        工:パターン認識と機械学習（計算機）&nbsp;</a>
+                        <br /><br />
+                        
+                        
+                        
+                        &nbsp;山本　章博 他<img src="/iwproxy/KULASIS/img/mark_new.gif" id="id_img_1251_0" ><br />
+                        &nbsp;情報学科<br />
+                        &nbsp;総合研究７号館情報１<br />
+                        <div style="text-align:right">後期</div>
+                      </div>
+                    </td>
+                <td class="entry_other" width="125">
+                        <a  href="/iwproxy/KULASIS/student/u/t/support/top?no=5108&from=%2Fstudent%2Fu%2Ft%2Fentry%2Fkouki"  id="id_a_1172_0" >
+                        工:数値解析&nbsp;</a>
+                        <br /><br />
+                        
+                        
+                        
+                        &nbsp;西村　直志<br />
+                        &nbsp;情報学科<br />
+                        &nbsp;物理系校舎物理系313<br />
+                        <div style="text-align:right">後期</div>
+                      </div>
+                    </td>
+                <td class="entry_other" width="125">
+                        <a  href="/iwproxy/KULASIS/student/u/t/support/top?no=5159&from=%2Fstudent%2Fu%2Ft%2Fentry%2Fkouki"  id="id_a_1172_0" >
+                        工:ヒューマンインタフェース&nbsp;</a>
+                        <br /><br />
+                        
+                        
+                        
+                        &nbsp;石田　亨 他<br />
+                        &nbsp;情報学科<br />
+                        &nbsp;総合研究７号館情報１<br />
+                        <div style="text-align:right">後期</div>
+                      </div>
+                    </td>
+                <td class="entry_null" ></td>
+                </tr>
+
+          <!-- 木曜日 -->
+          <tr valign="top">
+            <td class="th_normal " width="15" align="center" valign="middle">木</td>
+
+              <td class="entry_null" ></td>
+                <td class="entry_other" width="125">
+                        <a  href="/iwproxy/KULASIS/student/u/t/support/top?no=4544&from=%2Fstudent%2Fu%2Ft%2Fentry%2Fkouki"  id="id_a_1172_0" >
+                        工:工業数学Ａ１&nbsp;</a>
+                        <br /><br />
+                        
+                        
+                        
+                        &nbsp;吉川　仁<br />
+                        &nbsp;物理工学科<br>情報学科<br />
+                        &nbsp;物理系校舎物理系313<br />
+                        <div style="text-align:right">後期</div>
+                      </div>
+                    </td>
+                <td class="entry_interest" width="125">
+                        <a  href="/iwproxy/KULASIS/student/la/support/top?no=16672&from=%2Fstudent%2Fla%2Fentry%2Fkouki"  id="id_a_1172_0" >
+                        全:微分積分学続論II－微分方程式 &nbsp;</a>
+                        <br /><br />
+                        
+                        
+                        
+                        &nbsp;西村　直志<br />
+                        &nbsp;自然・応用科学系科目群<br />
+                        &nbsp;共北38<br />
+                        <div style="text-align:right">後期</div>
+                      </div>
+                    </td>
+                <td class="entry_other" width="125">
+                        <a  href="/iwproxy/KULASIS/student/u/t/support/top?no=5112&from=%2Fstudent%2Fu%2Ft%2Fentry%2Fkouki"  id="id_a_1172_0" >
+                        工:グラフ理論（計算機）&nbsp;</a>
+                        <br /><br />
+                        
+                        
+                        
+                        &nbsp;宮崎　修一<br />
+                        &nbsp;情報学科<br />
+                        &nbsp;総合研究８号館ＮＳホール（大ホール）<br />
+                        <div style="text-align:right">後期</div>
+                      </div>
+                    </td>
+                <td class="entry_null" ></td>
+                </tr>
+
+          <!-- 金曜日 -->
+          <tr valign="top">
+            <td class="th_normal " width="15" align="center" valign="middle">金</td>
+
+              <td class="entry_null" ></td>
+                <td class="entry_null" ></td>
+                <td class="entry_null" ></td>
+                <td class="entry_null" ></td>
+                <td class="entry_null" ></td>
+                </tr>
+
+          <tr><td bgcolor="#9DA0B4" class="th_top_normal" align="center" colspan="6"></td></tr>
+
+        </table>
+
+
+        <!-- 集中講義 -->
+        <div align="left" style="margin-left:5px; margin-top: 20px;">
+
+          <div class="explanation_long ">
+            <img src="/iwproxy/KULASIS/img/subheading_syutyu_kougi.gif" alt="集中講義等" id="id_img_1253_5" ><br />
+          </div>
+          
+          <table class="no_scroll_list">
+
+            <tr><td colspan="7" class="th_top_normal"></td></tr>
+            <tr class="th_normal ">
+              <td nowrap>曜時限</td>
+              <td nowrap>科目名</td>
+              <td nowrap>担当教員</td>
+              <td nowrap>区分</td>
+              <td nowrap>開講期</td>
+              <td nowrap>講義室</td>
+            </tr>
+
+              <tr class="odd_normal " valign="top">
+    
+                  <td width="80">集中<br /></td>
+                  <td>
+                    <a  href="/iwproxy/KULASIS/student/la/support/top?no=18791&from=%2Fstudent%2Fla%2Fentry%2Fkouki"  id="id_a_1137_0" >
+                    全:英語IIＢ &nbsp;E2L51</a>
+                    </td>
+                  <td width="140" >
+                      田地野　彰</td>
+
+                  <td>外国語科目群</td>
+                  <td width="80">後期集中</td>
+    
+                  <td width="75">
+                      　</td>
+                </tr>
+<tr><td colspan="7" class="th_top_normal"></td></tr>
+                
+          </table>
+          </div>
+
+        <center>
+          <br /><br />
+          <a href="../top" id="id_a_1252_1" ><img src="/iwproxy/KULASIS/img/button_home.gif" alt="HOMEへ" border="0" id="id_img_1252_6" ></a>&nbsp;&nbsp;&nbsp;
+
+        </center>
+      </div>
+
+<!-- /contents -->
+      
+      <div class="copyright">
+          <img src="/iwproxy/KULASIS/img/copyright.gif" alt="">
+        </div>
+      </div>
+    
+  </div>
+  <div id="footer" />
+
+</div>
+<div id="jsp_path">student/la/entry/kouki.jsp</div>
+</body>
+</html>
+
